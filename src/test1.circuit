@@ -1,0 +1,12 @@
+repeated_signal P: [0,0,0,0,1,1,1,1]
+repeated_signal Q: [0,0,1,1,0,0,1,1]
+repeated_signal R: [0,1,0,1,0,1,0,1]
+
+result 1: NAND(P,Q)
+result 2: NAND(Q,R)
+result 3: NAND(P,R)
+result 4: NAND(1,2)
+result 5: NAND(4,4)
+result 6: NAND(3,5)
+
+display res: 6

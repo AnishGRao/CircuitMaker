@@ -1,0 +1,5 @@
+repeated_signal A: [0,1,0]
+
+result I: OR(A,I)
+
+display out1: I

@@ -1,0 +1,10 @@
+repeated_signal A: [0,0,1,0,0,0,1,1,1,1,0]
+signal B: 0
+signal C: 1
+signal D: 0
+
+result I: AND(B,C)
+result J: XOR(I,A)
+result K: OR(J,D)
+
+display out1: K
